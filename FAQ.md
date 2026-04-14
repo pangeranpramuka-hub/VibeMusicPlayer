@@ -1,23 +1,66 @@
+# Vibe Music Player - Frequently Asked Questions (FAQ)
 
-Isi dari "Tanya Jawab" (FAQ) tersebut adalah panduan lengkap untuk pengguna dalam mengatasi masalah umum atau memahami fitur aplikasi.
-Berikut adalah ringkasan poin-poin penting yang ada di dalamnya:
-1.
-Cara Mendapatkan Versi Beta: Menjelaskan cara mendaftar sebagai penguji beta di Play Store.
-2.
-Cara Mengembalikan Pembelian (Restore Purchase): Panduan jika user sudah membeli fitur Pro tapi belum aktif di HP baru.
-3.
-Panduan Lirik Offline (Synced Lyrics): Ada 3 metode detail (manual, file .lrc, atau aplikasi pihak ketiga) untuk menampilkan lirik yang berjalan sesuai lagu.
-4.
-Cara Mengganti Tema: Navigasi ke pengaturan tampilan.
-5.
-Masalah Equalizer: Penjelasan mengapa equalizer mungkin terasa lag atau tidak ditemukan (tergantung sistem HP).
-6.
-Lagu Terakhir Ditambahkan: Cara mengatur interval waktu agar lagu baru muncul di daftar putar.
-7.
-Kontrol Layar Kunci: Cara mengaktifkan kontrol pemutar musik layar penuh.
-8.
-Masalah Gambar Galeri Jadi Sampul Album: Cara mengaktifkan fitur untuk mengabaikan gambar dari media store agar sampul album tidak berantakan.
-9.
-Format File yang Didukung: Menjelaskan bahwa aplikasi mendukung semua format yang bisa diputar oleh sistem Android HP tersebut.
-10.
-Masalah Performa & Crash: Tips dasar seperti hapus cache atau instal ulang jika aplikasi terasa berat atau sering keluar sendiri.
+## **Q: How do I get the beta version of Vibe Music Player?**
+You can opt-in for the beta build by clicking on this link: https://play.google.com/apps/testing/com.vibe.musicplayer
+
+___
+
+## **Q: How to restore my purchases (Pro Features)?**
+Make sure to use the same Google account in the Play Store app that you used to purchase the Pro version. 
+1. Remove other accounts temporarily if the purchase isn't detected.
+2. Open Vibe Music settings and tap on "Restore Purchase."
+3. If it still fails, clearing the Play Store cache and restarting the app usually helps.
+
+___
+
+## **Q: How do I use offline synced lyrics?**
+There are three methods for adding offline synced lyrics:
+
+### **Method 1: Manual Editor**
+- Find time-stamped lyrics (e.g., `[00:10.00] Lyrics text`).
+- Open the song in Vibe Music, go to the Lyrics Editor, and paste them there.
+
+### **Method 2: LRC Files**
+- Download or create a `.lrc` file.
+- Rename it to: `Song Name - Artist Name.lrc`.
+- Place it in: `/sdcard/VibeMusic/lyrics/`.
+
+### **Method 3: Third-Party Apps**
+- Use apps like "Autotagger" or "Automatag" to embed lyrics directly into the audio file.
+
+___
+
+## **Q: How do I change the theme?**
+Go to **Settings -> Look and Feel -> Theme**. You can choose between Light, Dark, or the signature "Vibe" Dark Grey theme.
+
+___
+
+## **Q: Equalizer is laggy or not found. Why?**
+Vibe Music uses your device's built-in system equalizer. If it’s unstable, it’s due to the phone's software (OEM). We recommend using a global equalizer like "MusicFx" or "Wavelet" if your system one is missing.
+
+___
+
+## **Q: Why aren't my latest downloaded songs showing?**
+Go to **Settings -> Others -> Last added playlist interval** and select a longer timeframe (e.g., Last 2 weeks or 1 month).
+
+___
+
+## **Q: How do I enable fullscreen lockscreen controls?**
+Go to **Settings -> Personalize -> Fullscreen controls**. Note: This only appears when music is actually playing.
+
+___
+
+## **Q: Why are my gallery photos showing as album art?**
+Go to **Settings -> Images -> Enable "Ignore media store covers"**. This forces the app to look for specific album art instead of random folder images.
+
+___
+
+## **Q: Which file types are supported?**
+Any format your phone supports natively (MP3, FLAC, M4A, WAV, Opus, etc.) will work perfectly in Vibe Music.
+
+___
+
+## **Q: App is slowing down or crashing?**
+1. Clear the app cache in your Phone Settings.
+2. If the issue persists, try a "Fresh Install" from the Play Store.
+3. Ensure you are not using too many high-resolution blur effects if your device has low RAM.
